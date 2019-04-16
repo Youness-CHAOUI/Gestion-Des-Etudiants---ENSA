@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="chaoui.cy_15.www.gestiondabsencecy_15.etudiantsActivity">
+
+    <item android:id="@+id/matieres"
+        android:title="@string/matrs"
+        android:icon="@android:drawable/ic_menu_agenda"
+        app:showAsAction="always"/>
+    <item android:id="@+id/uploadEtdList"
+        android:title="@string/upd_etd_lst"
+        app:showAsAction="never"/>
+    <item android:id="@+id/quitter"
+        android:title="@string/quitter"
+        app:showAsAction="never"/>
+</menu>

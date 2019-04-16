@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFF"
+    android:padding="0dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Noter la présence"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFFF" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_weight="8">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7">
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/datePicker"
+                android:layout_gravity="center_horizontal"
+                android:startYear="2018"
+                android:yearListSelectorColor="@color/colorPrimary"
+                android:datePickerMode="calendar"
+                android:calendarViewShown="false" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="Suivant"
+            android:id="@+id/btnSuivant"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFF"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

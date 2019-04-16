@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Antism</string>
+    <string name="title_activity_classes">Les classes</string>
+    <string name="title_activity_etudiants">Les étudiants</string>
+    <string name="title_activity_vvvvv">vvvvv</string>
+    <string name="action_settings">Settings</string>
+    <string name="upd_etd_lst">Charger la liste des étudiants (.txt)</string>
+    <string name="quitter">Quitter l\'application</string>
+    <string name="matrs">Matières</string>
+    <string name="title_activity_matieres">Les matères</string>
+    <string name="title_activity_seances">Les séances</string>
+</resources>

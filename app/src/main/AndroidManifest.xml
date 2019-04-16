@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.injaz2019.antism">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+        <activity android:name=".AccueilActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".classesActivity"
+            android:label="@string/title_activity_classes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".etudiantsActivity"
+            android:label="@string/title_activity_etudiants"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".matieresActivity"
+            android:label="@string/title_activity_matieres"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".seancesActivity"
+            android:label="@string/title_activity_seances"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".afficherEtudiantActivity" />
+        <activity android:name=".listeAbsenceActivity"></activity>
+    </application>
+
+</manifest>
